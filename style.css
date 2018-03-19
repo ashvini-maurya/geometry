@@ -7,7 +7,7 @@ body{
     position: relative;
     overflow: hidden;
     -webkit-clip-path: inset(10vw 20vw 10vw 10vw);
-    clip-path: inset(10vw 20vw 10vw 10vw);
+    /* clip-path: inset(0vw 17vw 10vw 10vw); */
 }
 .blues{
     position: absolute;
