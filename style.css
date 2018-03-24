@@ -2,37 +2,53 @@ body{
     background-color: #DDD;
     mix-blend-mode: darken;
 }
+
 .wrapper{
     margin: auto;
     position: relative;
     overflow: hidden;
     -webkit-clip-path: inset(10vw 20vw 10vw 10vw);
-    /* clip-path: inset(0vw 17vw 10vw 10vw); */
+    clip-path: inset(0vw 5vw 30vw 0vw);
 }
+
 .blues{
     position: absolute;
     top: 10vw;
     left: 10vw;
 }
+
 .greens div, .blues div{
     width: 20vw;
     height: 20vw;
     border-radius: 50%;
     mix-blend-mode: color-burn;
 }
+
 .blues div{
     width: 10vw;
     border-radius: 10vw 0 0 10vw;
 }
+
 .greens div{
     background-color: rgb(171, 162, 22);
     float: left;
 }
+
 .blues div{
     background-color: rgb(50, 109, 125);  /* rgb(123, 215, 240); */
     float: left;
 }
+
 .blues div:nth-child(2n+2){
     mix-blend-mode: screen;
     transform: rotateY(180deg);
 } 
+
+#bottom1  {
+    margin-left: 20vw; 
+    background-color: #DDD;
+}
+
+#bottom2, #bottom3 {
+    background-color: #DDD;
+}
